@@ -24,6 +24,7 @@ body {
     background-image: url(/images/header_bg.png),url(/images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
+    margin-bottom: 130px;
 }
 .header-container {
   display: flex;
@@ -82,9 +83,7 @@ body {
     margin-top: 20px;
     margin-bottom: 30px;
 }
-.b-img{
 
-}
 .b-img img{
     margin-bottom: -5px;
 }
@@ -93,3 +92,36 @@ body {
 }
 /* banner end */
 /* header end */
+
+
+/* main start */
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* about start */
+.about{
+    background-color: #FFF8F3;
+    padding: 130px;
+    margin-bottom: 130px;
+}
+.about-container{
+    background-color: white;
+    padding: 30px;
+}
+.about-container h2{
+    text-align: center;
+    
+}
+.about-container p{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.about-me{
+    display: flex;
+    justify-content: space-around;
+   
+}
+/* about end */
+/* main end */
