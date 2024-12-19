@@ -11,6 +11,8 @@
   font-weight: 700 !important;
   font-size: 20px !important;
   text-decoration: none;
+  border: none;
+  cursor: pointer;
 }
 /* common style */
 body {
@@ -97,6 +99,12 @@ main {
 main section{
   margin-bottom: 130px;
 }
+
+
+
+
+
+
 /* about start */
 .about {
   background-color: #fff8f3;
@@ -178,7 +186,36 @@ main section{
 .resume-column hr{
   margin-bottom: 10px;
 }
+.cv-btn{
+  text-align:center;
+  margin-top: 50px;
+}
 /* resume end */
 
 
 /* main end */
+
+
+/* footer start */
+footer{
+  display: flex;
+  gap: 100px;
+  background-color: #FFF8F3;
+  padding: 130px 200px;
+}
+.footer-column{
+  width: 50%;
+}
+
+
+.footer-column input[type="text"],input[type="email"], textarea{
+  display: block;
+  padding: 18px 30px;
+  border: none;
+  margin-bottom: 24px;
+  width: 100%;
+}
+.footer-column h2{
+  margin-bottom: 20px;
+}
+/* footer end */
